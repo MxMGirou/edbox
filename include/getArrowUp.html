@@ -1,0 +1,38 @@
+<p id="arrowUp" style="opacity:0;"><a href="#.index" style='text-decoration:none;'><img src="img/arrowUp.png" alt="arrow Up" /></a></p>
+<br></br>
+		
+<style>
+		
+	#arrowUp
+	{
+		position:fixed;
+		top:70%;
+		width:230px;
+		opacity:0.2;
+		-webkit-transition: opacity 0.5s;
+		-moz-transition: opacity 0.5s;
+		-o-transition: opacity 0.5s;
+		transition: opacity 0.5s;
+	}
+	#arrowUp:hover{opacity:1}
+		
+</style>
+		
+<script type="text/javascript">
+//function pour faire apparaitre la fleche Up
+	function getArrowUp()
+	{
+
+		var height = $(window).height();
+		var scrollTop = $(window).scrollTop();
+		if(scrollTop>600)
+		{
+			document.getElementById("arrowUp").style.opacity=0.2;
+		}
+		else
+		{
+			document.getElementById("arrowUp").style.opacity=0;
+		}
+	}
+
+</script>

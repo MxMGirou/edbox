@@ -1,0 +1,1 @@
+<p> EveryDay Box - 2014 - <a href="#" >Condition generale</a> - <a href="#" >Contact</a> </p>
